@@ -1,5 +1,18 @@
 # Подсказка по GIT
 
+## Первоначальная настройка Git
+Задаёт имя пользователя, от которого будут идти коммиты:
+```sh
+ git config --global user.name "Ivan Ivanov"
+```
+Задаёт электронную почту пользователя, от которого будут идти коммиты:
+```sh
+ git config --global user.email "mail@gmail.com"
+```
+Просмотр настроек
+```sh
+ git config --list
+```
 Инициализация проекта как репозитория Git:
 ```sh
 git init
@@ -24,3 +37,4 @@ git log --oneline
 ```sh
 git checkout
 ```
+
