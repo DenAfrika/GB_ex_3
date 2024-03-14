@@ -17,7 +17,7 @@
 ## Работа с репозиторием
 Инициализация проекта как репозитория Git:
 ```sh
-git init
+git Help
 ```
 Склонировать удалённый репозиторий Git:
 ```sh
@@ -56,3 +56,16 @@ git checkout
 ```sh
 git branch
 ```
+Слить ветки:
+```sh
+git merge [branch-name]
+```
+Удалить ветку:
+```sh
+git branch --delete [branch-name]
+```
+Создание новой локальной ветки:
+```sh
+git branch [branch-name]
+```
+
